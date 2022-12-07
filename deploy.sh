@@ -4,7 +4,9 @@
 # $1 - npm binary
 
 echo building blog backend...
-yarn build
+# Note - This command is getting killed on VPS;
+# until further notice, build on personal computer
+# yarn build
 echo successfully built blog backend!
 echo running blog backend...
 yarn start
